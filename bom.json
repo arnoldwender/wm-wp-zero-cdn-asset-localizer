@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-19T09:56:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-zero-cdn-asset-localizer",
+      "version": "1.2.0",
+      "description": "Checks the front page for Google Fonts, Font Awesome, cdnjs, jsDelivr and unpkg references and downloads a Google Fonts stylesheet with its WOFF2 files to the site's own uploads folder. Replacing the remote link in the theme stays a manual step.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-zero-cdn-asset-localizer@1.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f42258402d2a4b31abe2fc3573bb729acc2e9eed4a9e94ccd1b73c6cc0664419"
+        }
+      ]
+    }
+  },
+  "components": []
+}

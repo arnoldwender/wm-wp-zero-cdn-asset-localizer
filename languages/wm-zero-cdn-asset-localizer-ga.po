@@ -1,0 +1,514 @@
+# Translation of wm-zero-cdn-asset-localizer in ga
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-zero-cdn-asset-localizer 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-zero-cdn-asset-"
+"localizer\n"
+"POT-Creation-Date: 2026-11-19T12:14:25+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-zero-cdn-asset-localizer/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-zero-cdn-asset-localizer/issues>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-zero-cdn-asset-localizer\n"
+
+#. Plugin Name of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "WM Zero-CDN Asset Localizer & Font Sovereignty Engine"
+msgstr "WM Zero-CDN Asset Localizer & Inneall Ceannasachta Clófhoirne"
+
+#. Plugin URI of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid ""
+"https://arnoldwender.com/wordpress-plugins/wm-zero-cdn-asset-localizer/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid ""
+"Checks the front page for Google Fonts, Font Awesome, cdnjs, jsDelivr and "
+"unpkg references and downloads a Google Fonts stylesheet with its WOFF2 "
+"files to the site's own uploads folder. Replacing the remote link in the "
+"theme stays a manual step."
+msgstr ""
+"Seiceálann sé an leathanach tosaigh le haghaidh tagairtí do Google Fonts, "
+"Font Awesome, cdnjs, jsDelivr agus unpkg agus íoslódálann sé stílchlár "
+"Google Fonts lena chomhaid WOFF2 chuig fillteán uaslódála an tsuímh féin. Is "
+"céim láimhe fós é an nasc cianda sa téama a athsholáthar."
+
+#. Author of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "https://www.arnoldwender.com"
+msgstr "https://www.arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "WM Zero-CDN — externe Schriften und Bibliotheken"
+msgstr "WM Zero-CDN — clófhoirne agus leabharlanna seachtracha"
+
+#: includes/Admin/AdminDashboard.php:142
+msgid "Startseite konnte nicht geprüft werden"
+msgstr "Níorbh fhéidir an leathanach tosaigh a sheiceáil"
+
+#: includes/Admin/AdminDashboard.php:144
+#: includes/Integrations/BlockIntegrations.php:167
+msgid "Keine CDN-Verweise auf der Startseite gefunden"
+msgstr "Níor aimsíodh aon tagairtí CDN ar an leathanach tosaigh"
+
+#. translators: %d: number of CDN references found on the front page
+#: includes/Admin/AdminDashboard.php:147
+#: includes/Integrations/BlockIntegrations.php:177
+#, php-format
+msgid "%d CDN-Verweis auf der Startseite"
+msgid_plural "%d CDN-Verweise auf der Startseite"
+msgstr[0] "%d tagairt CDN ar an leathanach tosaigh"
+msgstr[1] "%d tagairtí CDN ar an leathanach tosaigh"
+msgstr[2] "%d tagairtí CDN ar an leathanach tosaigh"
+msgstr[3] "%d tagairtí CDN ar an leathanach tosaigh"
+msgstr[4] "%d tagairtí CDN ar an leathanach tosaigh"
+
+#: includes/Admin/AdminDashboard.php:151
+msgid ""
+"Geprüft: Google Fonts, Font Awesome, cdnjs, jsDelivr, unpkg im HTML der "
+"Startseite"
+msgstr ""
+"Seiceáilte: Google Fonts, Font Awesome, cdnjs, jsDelivr, unpkg in HTML an "
+"leathanaigh tosaigh"
+
+#: includes/Admin/AdminDashboard.php:158
+#: includes/Integrations/BlockIntegrations.php:79
+msgid "CDN-Verweise"
+msgstr "Tagairtí CDN"
+
+#: includes/Admin/AdminDashboard.php:162 includes/Admin/AdminDashboard.php:316
+#: includes/Integrations/BlockIntegrations.php:83
+msgid "Lokale WOFF2-Dateien"
+msgstr "Comhaid WOFF2 áitiúla"
+
+#: includes/Admin/AdminDashboard.php:168
+msgid "Startseite jetzt prüfen"
+msgstr "Seiceáil an leathanach tosaigh anois"
+
+#: includes/Admin/AdminDashboard.php:187
+msgid "WM Zero-CDN Localizer"
+msgstr "Logánaí WM Zero-CDN"
+
+#: includes/Admin/AdminDashboard.php:188
+msgid "Zero-CDN"
+msgstr "Zero-CDN"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid "Übersicht"
+msgstr "Forbhreathnú"
+
+#: includes/Admin/AdminDashboard.php:227 includes/Admin/AdminDashboard.php:293
+msgid "Schrift herunterladen"
+msgstr "Íoslódáil clófhoireann"
+
+#: includes/Admin/AdminDashboard.php:228 includes/Admin/AdminDashboard.php:290
+msgid "Startseite prüfen"
+msgstr "Seiceáil an leathanach tosaigh"
+
+#: includes/Admin/AdminDashboard.php:229 includes/Admin/AdminDashboard.php:506
+msgid "Einstellungen"
+msgstr "Socruithe"
+
+#: includes/Admin/AdminDashboard.php:230 includes/Admin/AdminDashboard.php:550
+msgid "Begriffe"
+msgstr "Gluais"
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "WM Zero-CDN — Schriften lokal bereitstellen"
+msgstr "WM Zero-CDN — Cuir clófhoirne ar fáil go háitiúil"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Startseite auf CDN-Verweise prüfen &bull; Google-Fonts-CSS und WOFF2-Dateien "
+"auf den eigenen Server laden"
+msgstr ""
+"Seiceáil tagairtí CDN an leathanaigh tosaigh &bull; Íoslódáil CSS Google "
+"Fonts agus comhaid WOFF2 chuig do fhreastalaí féin"
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Part of the WM Suite plugin family"
+msgstr "Cuid d’fhine breiseán WM Suite"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:267
+msgid "Hub"
+msgstr "Mol"
+
+#: includes/Admin/AdminDashboard.php:267
+msgid "Standalone"
+msgstr "Neamhspleách"
+
+#: includes/Admin/AdminDashboard.php:270
+msgid "STARTSEITE NICHT GEPRÜFT"
+msgstr "LEATHANACH TOSAIGH GAN SEICEÁIL"
+
+#. translators: %d: CDN references
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d CDN-VERWEISE"
+msgstr "%d TAGAIRTÍ CDN"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "KEINE CDN-VERWEISE GEFUNDEN"
+msgstr "NÍOR AIMSÍODH AON TAGAIRT CDN"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid "Was dieses Plugin tut – und was nicht"
+msgstr "Cad a dhéanann an breiseán seo – agus cad nach ndéanann"
+
+#: includes/Admin/AdminDashboard.php:285
+msgid ""
+"Wenn eine Seite Schriften oder Bibliotheken von einem fremden Server lädt, "
+"schickt der Browser jedes Besuchers seine IP-Adresse an diesen Server. Das "
+"Plugin prüft das HTML der Startseite auf Google Fonts, Font Awesome, cdnjs, "
+"jsDelivr und unpkg und lädt auf Wunsch ein Google-Fonts-Stylesheet samt "
+"WOFF2-Dateien nach wp-content/uploads/wm-zero-cdn/. Es tauscht nichts "
+"automatisch aus: die lokale CSS-Datei muss im Theme statt des externen Links "
+"eingebunden werden."
+msgstr ""
+"Nuair a lódálann leathanach clófhoirne nó leabharlanna ó fhreastalaí "
+"seachtrach, seolann brabhsálaí gach cuairteora a sheoladh IP chuig an "
+"bhfreastalaí sin. Scrúdaíonn an breiseán HTML an leathanaigh tosaigh le "
+"haghaidh Google Fonts, Font Awesome, cdnjs, jsDelivr agus unpkg agus "
+"íoslódálann sé stílchlár Google Fonts mar aon le comhaid WOFF2 chuig wp-"
+"content/uploads/wm-zero-cdn/ nuair a iarrtar é. Ní athraítear aon rud go "
+"huathoibríoch: ní mór an comhad CSS áitiúil a lódáil sa téama in ionad an "
+"naisc sheachtraigh."
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "Schnellzugriff:"
+msgstr "Rochtain thapa:"
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Module Tabs"
+msgstr "Cluaisíní an mhodúil"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "CDN-Verweise auf der Startseite"
+msgstr "Tagairtí CDN ar an leathanach tosaigh"
+
+#. translators: %s: time of the scan
+#: includes/Admin/AdminDashboard.php:313
+#, php-format
+msgid "geprüft %s"
+msgstr "seiceáilte %s"
+
+#. translators: %s: error
+#: includes/Admin/AdminDashboard.php:313
+#, php-format
+msgid "nicht lesbar: %s"
+msgstr "do-léite: %s"
+
+#: includes/Admin/AdminDashboard.php:318
+msgid "in uploads/wm-zero-cdn/"
+msgstr "in uploads/wm-zero-cdn/"
+
+#: includes/Admin/AdminDashboard.php:321 includes/Admin/AdminDashboard.php:561
+msgid "Preload"
+msgstr "Réamhlódáil"
+
+#: includes/Admin/AdminDashboard.php:322
+msgid "An"
+msgstr "Ann"
+
+#: includes/Admin/AdminDashboard.php:322
+msgid "Aus"
+msgstr "As"
+
+#. translators: %d: number of fonts listed for preloading
+#: includes/Admin/AdminDashboard.php:323
+#, php-format
+msgid "%d Dateien eingetragen (max. 3 werden ausgegeben)"
+msgstr "%d comhad liostaithe (uas. 3 aschurtha)"
+
+#: includes/Admin/AdminDashboard.php:326
+msgid "CDN-Stylesheets in dieser Admin-Anfrage"
+msgstr "Stílchláir CDN san iarratas riaracháin seo"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Theme-Styles des Frontends sind hier nicht registriert"
+msgstr "Níl stíleanna tosaigh an téama cláraithe anseo"
+
+#: includes/Admin/AdminDashboard.php:333
+msgid "So wird eine Schrift lokal"
+msgstr "Conas clófhoireann a dhéanamh áitiúil"
+
+#: includes/Admin/AdminDashboard.php:335
+msgid "Unter „Startseite prüfen“ die Google-Fonts-URL des Themes ablesen."
+msgstr ""
+"Faoi «Seiceáil an leathanach tosaigh», léigh URL Google Fonts an téama."
+
+#: includes/Admin/AdminDashboard.php:336
+msgid ""
+"Unter „Schrift herunterladen“ diese URL eintragen: Stylesheet und WOFF2-"
+"Dateien landen in uploads/wm-zero-cdn/, die Schrift-URLs im Stylesheet "
+"zeigen auf die lokalen Dateien."
+msgstr ""
+"Faoi «Íoslódáil clófhoireann», cuir isteach an URL sin: sábháiltear an "
+"stílchlár agus na comhaid WOFF2 in uploads/wm-zero-cdn/ le naisc áitiúla."
+
+#: includes/Admin/AdminDashboard.php:337
+msgid ""
+"Im Theme oder per Snippet den externen Link entfernen und die angezeigte "
+"lokale CSS-URL einbinden. Das Plugin macht diesen Schritt nicht."
+msgstr ""
+"Sa téama nó trí bhlúire cóid, bain an nasc seachtrach agus lódáil an URL CSS "
+"áitiúil a thaispeántar. Ní dhéanann an breiseán an chéim seo."
+
+#: includes/Admin/AdminDashboard.php:338
+msgid "Startseite erneut prüfen."
+msgstr "Seiceáil an leathanach tosaigh arís."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid "Inter"
+msgstr "Inter"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Roboto"
+msgstr "Roboto"
+
+#: includes/Admin/AdminDashboard.php:356
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Poppins"
+msgstr "Poppins"
+
+#: includes/Admin/AdminDashboard.php:368
+msgid "Google-Fonts-Stylesheet herunterladen"
+msgstr "Íoslódáil stílchlár Google Fonts"
+
+#: includes/Admin/AdminDashboard.php:370
+msgid ""
+"Stylesheet-URL eintragen. Das Plugin lädt das CSS und jede darin genannte "
+"WOFF2-Datei, prüft, dass es wirklich WOFF2 ist, und schreibt die Schrift-"
+"URLs auf die lokalen Kopien um. Die lokale Datei wird nicht automatisch "
+"eingebunden."
+msgstr ""
+"Cuir isteach URL an stílchláir. Íoslódálann an breiseán an CSS agus gach "
+"comhad WOFF2 a luaitear ann, fíoraíonn sé síniú WOFF2 agus athscríobhann sé "
+"URLanna na gclófhoirne chuig na cóipeanna áitiúla. Ní lódáiltear an comhad "
+"áitiúil go huathoibríoch."
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "Beispiele:"
+msgstr "Samplaí:"
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "Stylesheet-URL:"
+msgstr "URL an stílchláir:"
+
+#: includes/Admin/AdminDashboard.php:387
+msgid "Herunterladen und lokal speichern"
+msgstr "Íoslódáil agus sábháil go háitiúil"
+
+#: includes/Admin/AdminDashboard.php:409
+msgid "Lade Stylesheet und Schriftdateien …"
+msgstr "Stílchlár agus comhaid chlófhoirne á n-íoslódáil …"
+
+#: includes/Admin/AdminDashboard.php:420
+msgid "Gespeichert. Lokale CSS-Datei (im Theme einbinden):"
+msgstr "Sábháilte. Comhad CSS áitiúil (lódáil sa téama):"
+
+#: includes/Admin/AdminDashboard.php:422
+msgid "WOFF2-Dateien lokal:"
+msgstr "Comhaid WOFF2 áitiúla:"
+
+#: includes/Admin/AdminDashboard.php:422
+msgid "nicht ladbar (bleiben extern):"
+msgstr "theip ar lódáil (fanann seachtrach):"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:432
+msgid "Fehler:"
+msgstr "Earráid:"
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "CDN-Verweise im HTML der Startseite"
+msgstr "Tagairtí CDN in HTML an leathanaigh tosaigh"
+
+#. translators: %s: front page URL
+#: includes/Admin/AdminDashboard.php:444
+#, php-format
+msgid ""
+"Gerade abgerufen: %s. Geprüft werden Links und Skripte zu Google Fonts, Font "
+"Awesome, cdnjs, jsDelivr und unpkg; andere externe Hosts und Unterseiten "
+"nicht."
+msgstr ""
+"Faighte anois díreach: %s. Seiceáiltear naisc agus scripteanna chuig Google "
+"Fonts, Font Awesome, cdnjs, jsDelivr agus unpkg; ní sheiceáiltear óstaigh "
+"sheachtracha eile ná foleathanaigh."
+
+#. translators: %s: error
+#: includes/Admin/AdminDashboard.php:448
+#, php-format
+msgid ""
+"Die Startseite konnte nicht abgerufen werden (%s). Ohne diese Messung sagt "
+"das Plugin nichts über externe Verweise."
+msgstr ""
+"Níorbh fhéidir an leathanach tosaigh a fháil (%s). Gan an tomhas seo ní deir "
+"an breiseán aon rud faoi thagairtí seachtracha."
+
+#: includes/Admin/AdminDashboard.php:450
+msgid "Keine Verweise auf die fünf geprüften CDN-Hosts im HTML der Startseite."
+msgstr ""
+"Níl aon tagairt do na cúig óstach CDN a seiceáladh in HTML an leathanaigh "
+"tosaigh."
+
+#: includes/Admin/AdminDashboard.php:455 includes/Admin/AdminDashboard.php:480
+msgid "Anbieter"
+msgstr "Soláthraí"
+
+#: includes/Admin/AdminDashboard.php:456
+msgid "URL"
+msgstr "Seoladh URL"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid "CDN-Stylesheets, die in dieser Admin-Anfrage registriert sind"
+msgstr "Stílchláir CDN cláraithe san iarratas riaracháin seo"
+
+#: includes/Admin/AdminDashboard.php:474
+msgid ""
+"Keine. Die Styles des Frontends werden im Admin nicht registriert; "
+"maßgeblich ist die Prüfung der Startseite oben."
+msgstr ""
+"Ceann ar bith. Ní chláraítear stíleanna an tsuímh phoiblí sa riarachán; is é "
+"seiceáil an leathanaigh tosaigh thuas atá cinntitheach."
+
+#: includes/Admin/AdminDashboard.php:479
+msgid "Handle"
+msgstr "Láimhseog"
+
+#: includes/Admin/AdminDashboard.php:481
+msgid "Quelle"
+msgstr "Foinse"
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Preload-Links im Kopfbereich aktivieren"
+msgstr "Cumasaigh naisc réamhlódála sa cheanntásc"
+
+#: includes/Admin/AdminDashboard.php:516
+msgid ""
+"Gibt für bis zu drei vorhandene WOFF2-Dateien in wp-content/uploads/wm-zero-"
+"cdn/ ein rel=\"preload\"-Element im Kopfbereich aus."
+msgstr ""
+"Cuireann sé eilimint rel=\"preload\" amach sa cheanntásc do suas le trí "
+"chomhad WOFF2 atá ann in wp-content/uploads/wm-zero-cdn/."
+
+#: includes/Admin/AdminDashboard.php:522
+msgid "Lokale WOFF2-Dateinamen für Preload (eine Datei pro Zeile):"
+msgstr ""
+"Ainmneacha comhad WOFF2 áitiúla le réamhlódáil (comhad amháin in aghaidh an "
+"líne):"
+
+#: includes/Admin/AdminDashboard.php:526
+msgid ""
+"Nur Dateinamen auf .woff2, die tatsächlich im Ordner uploads/wm-zero-cdn/ "
+"liegen, werden berücksichtigt (höchstens drei)."
+msgstr ""
+"Ní chuirtear san áireamh ach ainmneacha comhad dar críoch .woff2 atá i "
+"ndáiríre san fhillteán uploads/wm-zero-cdn/ (trí cinn ar a mhéad)."
+
+#: includes/Admin/AdminDashboard.php:533
+msgid "Daten beim Deinstallieren löschen"
+msgstr "Scrios sonraí ar dhíshuiteáil"
+
+#: includes/Admin/AdminDashboard.php:536
+msgid ""
+"Standardmäßig bleiben Optionen und lokal gespeicherte Schriftdateien "
+"erhalten, wenn das Plugin gelöscht wird. Nur wenn diese Option aktiviert "
+"ist, entfernt die Deinstallation alle Plugin-Optionen, den Prüf-"
+"Zwischenspeicher und den Ordner wp-content/uploads/wm-zero-cdn/ dieser "
+"Website."
+msgstr ""
+"De réir réamhshocraithe coinnítear roghanna agus comhaid chlófhoirne atá "
+"stóráilte go háitiúil nuair a scriostar an breiseán. Ach amháin má tá an "
+"rogha seo cumasaithe, baineann an díshuiteáil gach rogha breiseáin, taisce "
+"na seiceála agus fillteán wp-content/uploads/wm-zero-cdn/ an tsuímh seo."
+
+#: includes/Admin/AdminDashboard.php:541
+msgid "Einstellungen speichern"
+msgstr "Sábháil socruithe"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "CDN (Content Delivery Network)"
+msgstr "CDN (Líonra Seachadta Ábhair)"
+
+#: includes/Admin/AdminDashboard.php:554
+msgid ""
+"Fremde Server, die Dateien ausliefern. Lädt der Browser eine Datei von dort, "
+"erhält der Server die IP-Adresse des Besuchers."
+msgstr ""
+"Freastalaithe tríú páirtí a sheachadann comhaid. Nuair a lódálann an "
+"brabhsálaí comhad uathu, faigheann an freastalaí seoladh IP an chuairteora."
+
+#: includes/Admin/AdminDashboard.php:557
+msgid "WOFF2"
+msgstr "WOFF2"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid ""
+"Komprimiertes Schriftformat für das Web. Das Plugin speichert nur Dateien, "
+"die mit der WOFF2-Signatur beginnen; es konvertiert keine anderen Formate."
+msgstr ""
+"Formáid chomhbhrúite clófhoirne gréasáin. Ní shábhálann an breiseán ach "
+"comhaid a thosaíonn le síniú WOFF2; ní thiontaíonn sé formáidí eile."
+
+#: includes/Admin/AdminDashboard.php:562
+msgid ""
+"Ein <link rel=\"preload\">-Hinweis, der den Browser eine Schrift früher "
+"laden lässt. Das Plugin gibt bis zu drei solcher Links für vorhandene "
+"Dateien in uploads/wm-zero-cdn/ aus, wenn Preload unter „Einstellungen“ oder "
+"per Filter aktiviert ist."
+msgstr ""
+"Leid <link rel=\"preload\"> a chuireann ar an mbrabhsálaí clófhoireann a "
+"lódáil níos luaithe. Cuireann an breiseán suas le trí nasc den sórt sin "
+"amach do chomhaid atá in uploads/wm-zero-cdn/ nuair atá réamhlódáil "
+"cumasaithe faoi «Socruithe» nó trí scagaire."
+
+#: includes/Integrations/BlockIntegrations.php:43
+#: includes/Integrations/BlockIntegrations.php:62
+msgid "WM Zero-CDN Status"
+msgstr "Stádas WM Zero-CDN"
+
+#: includes/Integrations/BlockIntegrations.php:66
+msgid ""
+"Gibt den gemessenen CDN-Prüfstatus oder die Anzahl lokaler WOFF2-Dateien aus."
+msgstr ""
+"Cuireann sé amach stádas tomhaiste na seiceála CDN nó líon na gcomhad WOFF2 "
+"áitiúla."
+
+#: includes/Integrations/BlockIntegrations.php:70
+msgid "Feld"
+msgstr "Réimse"
+
+#: includes/Integrations/BlockIntegrations.php:75
+msgid "Zusammenfassung"
+msgstr "Achoimre"
+
+#: includes/Integrations/BlockIntegrations.php:87
+msgid "Prüfstatus-Kennung"
+msgstr "Eochair stádais"
+
+#: includes/Integrations/BlockIntegrations.php:156
+msgid "Startseite noch nicht geprüft"
+msgstr "Níor seiceáladh an leathanach tosaigh fós"
+
