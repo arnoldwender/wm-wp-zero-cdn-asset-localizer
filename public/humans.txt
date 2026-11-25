@@ -1,0 +1,45 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+ / 7.x
+    PHP 8.2+ (Strict Types)
+    WordPress HTTP API, Transients, Uploads directory (no database table, no cron)
+    Native WP-CLI Tooling & REST API Controllers
+
+    ## Frontend
+    One inline vanilla JavaScript block on the admin screen
+    Self-Hosted Assets (the plugin's own two stylesheets and one image in /assets/)
+
+    ## Quality
+    Standalone test suites on PHP 8.2 and 8.3, mutation check, static security audit
+    Dashicons instead of emoji, visible focus states on the admin screen
+
+# SITE & PROJECT
+
+    Plugin: wm-zero-cdn-asset-localizer
+    Stack: WordPress Enterprise Extension
+    Standards: Zero External Runtime Dependencies
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-zero-cdn-asset-localizer
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

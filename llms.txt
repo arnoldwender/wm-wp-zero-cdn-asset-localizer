@@ -1,0 +1,21 @@
+# WM Zero CDN Asset Localizer
+
+> WordPress plugin that checks the site's front page for Google Fonts, Font Awesome, cdnjs, jsDelivr and unpkg references and downloads a Google Fonts stylesheet with its WOFF2 files into `wp-content/uploads/wm-zero-cdn/`. It does not replace the remote link automatically; the theme has to load the local copy.
+
+## Overview
+
+`wm-zero-cdn-asset-localizer` is a WordPress plugin developed with an agentic workflow (AI coding agents). It offers an admin screen with measured figures, REST routes and WP-CLI commands for administrators (`wp cdn scan`, `wp cdn localize`), optional preload links, and registers as a spoke of the WM Suite Hub. It makes no legal assessment; an unreadable front page is reported as unreadable, never as clean.
+
+## Standards & Compliance
+
+- Version 1.2.1.
+- PHP 8.2+ / Strict Types / PSR-12 / WPCS
+- Zero-CDN Invariant (the plugin's own assets are self-hosted)
+- wp_safe_remote_get() with status and WOFF2 signature checks / manage_options on REST / textContent in admin JS
+- DSGVO/GDPR: no personal data stored
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-zero-cdn-asset-localizer/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-zero-cdn-asset-localizer
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-zero-cdn-asset-localizer/issues only · no private support · AS IS / no liability (SUPPORT.md)

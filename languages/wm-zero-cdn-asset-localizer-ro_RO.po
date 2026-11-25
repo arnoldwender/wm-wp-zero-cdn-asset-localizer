@@ -1,0 +1,514 @@
+# Translation of wm-zero-cdn-asset-localizer in ro_RO
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-zero-cdn-asset-localizer 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-zero-cdn-asset-"
+"localizer\n"
+"POT-Creation-Date: 2026-11-21T15:00:17+00:00\n"
+"PO-Revision-Date: 2026-11-21 16:01+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-zero-cdn-"
+"asset-localizer/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-zero-cdn-"
+"asset-localizer/issues>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && "
+"n%100<20)) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-zero-cdn-asset-localizer\n"
+
+#. Plugin Name of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "WM Zero-CDN Asset Localizer & Font Sovereignty Engine"
+msgstr "WM Zero-CDN Asset Localizer & Motor de suveranitate a fonturilor"
+
+#. Plugin URI of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-zero-cdn-asset-localizer/"
+msgstr ""
+"https://arnoldwender.com/wordpress-plugins/wm-zero-cdn-asset-localizer/"
+
+#. Description of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid ""
+"Checks the front page for Google Fonts, Font Awesome, cdnjs, jsDelivr and "
+"unpkg references and downloads a Google Fonts stylesheet with its WOFF2 "
+"files to the site's own uploads folder. Replacing the remote link in the "
+"theme stays a manual step."
+msgstr ""
+"Verifică prima pagină pentru referințe către Google Fonts, Font Awesome, "
+"cdnjs, jsDelivr și unpkg și descarcă o foaie de stil Google Fonts cu "
+"fișierele WOFF2 în dosarul propriu de încărcări al site-ului. Înlocuirea "
+"legăturii externe în temă rămâne un pas manual."
+
+#. Author of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "WM Zero-CDN — externe Schriften und Bibliotheken"
+msgstr "WM Zero-CDN — fonturi și biblioteci externe"
+
+#: includes/Admin/AdminDashboard.php:142
+msgid "Startseite konnte nicht geprüft werden"
+msgstr "Prima pagină nu a putut fi verificată"
+
+#: includes/Admin/AdminDashboard.php:144
+#: includes/Integrations/BlockIntegrations.php:167
+msgid "Keine CDN-Verweise auf der Startseite gefunden"
+msgstr "Nu s-au găsit referințe CDN pe prima pagină"
+
+#. translators: %d: number of CDN references found on the front page
+#: includes/Admin/AdminDashboard.php:147
+#: includes/Integrations/BlockIntegrations.php:177
+#, php-format
+msgid "%d CDN-Verweis auf der Startseite"
+msgid_plural "%d CDN-Verweise auf der Startseite"
+msgstr[0] "%d referință CDN pe prima pagină"
+msgstr[1] "%d referințe CDN pe prima pagină"
+msgstr[2] "%d de referințe CDN pe prima pagină"
+
+#: includes/Admin/AdminDashboard.php:151
+msgid ""
+"Geprüft: Google Fonts, Font Awesome, cdnjs, jsDelivr, unpkg im HTML der "
+"Startseite"
+msgstr ""
+"Verificat: Google Fonts, Font Awesome, cdnjs, jsDelivr, unpkg în codul HTML "
+"al primei pagini"
+
+#: includes/Admin/AdminDashboard.php:158
+#: includes/Integrations/BlockIntegrations.php:79
+msgid "CDN-Verweise"
+msgstr "Referințe CDN"
+
+#: includes/Admin/AdminDashboard.php:162 includes/Admin/AdminDashboard.php:316
+#: includes/Integrations/BlockIntegrations.php:83
+msgid "Lokale WOFF2-Dateien"
+msgstr "Fișiere WOFF2 locale"
+
+#: includes/Admin/AdminDashboard.php:168
+msgid "Startseite jetzt prüfen"
+msgstr "Verifică prima pagină acum"
+
+#: includes/Admin/AdminDashboard.php:187
+msgid "WM Zero-CDN Localizer"
+msgstr "Localizator WM Zero-CDN"
+
+#: includes/Admin/AdminDashboard.php:188
+msgid "Zero-CDN"
+msgstr "Zero-CDN"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid "Übersicht"
+msgstr "Prezentare generală"
+
+#: includes/Admin/AdminDashboard.php:227 includes/Admin/AdminDashboard.php:293
+msgid "Schrift herunterladen"
+msgstr "Descarcă font"
+
+#: includes/Admin/AdminDashboard.php:228 includes/Admin/AdminDashboard.php:290
+msgid "Startseite prüfen"
+msgstr "Verifică prima pagină"
+
+#: includes/Admin/AdminDashboard.php:229 includes/Admin/AdminDashboard.php:506
+msgid "Einstellungen"
+msgstr "Setări"
+
+#: includes/Admin/AdminDashboard.php:230 includes/Admin/AdminDashboard.php:550
+msgid "Begriffe"
+msgstr "Glosar"
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "WM Zero-CDN — Schriften lokal bereitstellen"
+msgstr "WM Zero-CDN — Livrare locală a fonturilor"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Startseite auf CDN-Verweise prüfen &bull; Google-Fonts-CSS und WOFF2-Dateien "
+"auf den eigenen Server laden"
+msgstr ""
+"Verifică referințele CDN de pe prima pagină &bull; Descarcă CSS Google Fonts "
+"și fișierele WOFF2 pe propriul server"
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Part of the WM Suite plugin family"
+msgstr "Parte a familiei de module WM Suite"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:267
+msgid "Hub"
+msgstr "Centru"
+
+#: includes/Admin/AdminDashboard.php:267
+msgid "Standalone"
+msgstr "Autonom"
+
+#: includes/Admin/AdminDashboard.php:270
+msgid "STARTSEITE NICHT GEPRÜFT"
+msgstr "PRIMA PAGINĂ NEVERIFICATĂ"
+
+#. translators: %d: CDN references
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d CDN-VERWEISE"
+msgstr "%d REFERINȚE CDN"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "KEINE CDN-VERWEISE GEFUNDEN"
+msgstr "NICIO REFERINȚĂ CDN GĂSITĂ"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid "Was dieses Plugin tut – und was nicht"
+msgstr "Ce face acest modul – și ce nu face"
+
+#: includes/Admin/AdminDashboard.php:285
+msgid ""
+"Wenn eine Seite Schriften oder Bibliotheken von einem fremden Server lädt, "
+"schickt der Browser jedes Besuchers seine IP-Adresse an diesen Server. Das "
+"Plugin prüft das HTML der Startseite auf Google Fonts, Font Awesome, cdnjs, "
+"jsDelivr und unpkg und lädt auf Wunsch ein Google-Fonts-Stylesheet samt "
+"WOFF2-Dateien nach wp-content/uploads/wm-zero-cdn/. Es tauscht nichts "
+"automatisch aus: die lokale CSS-Datei muss im Theme statt des externen Links "
+"eingebunden werden."
+msgstr ""
+"Când o pagină încarcă fonturi sau biblioteci de pe un server extern, "
+"navigatorul fiecărui vizitator trimite adresa sa IP acelui server. Modulul "
+"verifică HTML-ul primei pagini pentru Google Fonts, Font Awesome, cdnjs, "
+"jsDelivr și unpkg și, la cerere, descarcă o foaie de stil Google Fonts "
+"împreună cu fișierele WOFF2 în wp-content/uploads/wm-zero-cdn/. Nimic nu "
+"este înlocuit automat: fișierul CSS local trebuie încărcat în temă în locul "
+"legăturii externe."
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "Schnellzugriff:"
+msgstr "Acces rapid:"
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Module Tabs"
+msgstr "Filele modulului"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "CDN-Verweise auf der Startseite"
+msgstr "Referințe CDN pe prima pagină"
+
+#. translators: %s: time of the scan
+#: includes/Admin/AdminDashboard.php:313
+#, php-format
+msgid "geprüft %s"
+msgstr "verificat la %s"
+
+#. translators: %s: error
+#: includes/Admin/AdminDashboard.php:313
+#, php-format
+msgid "nicht lesbar: %s"
+msgstr "ilizibil: %s"
+
+#: includes/Admin/AdminDashboard.php:318
+msgid "in uploads/wm-zero-cdn/"
+msgstr "în uploads/wm-zero-cdn/"
+
+#: includes/Admin/AdminDashboard.php:321 includes/Admin/AdminDashboard.php:561
+msgid "Preload"
+msgstr "Preîncărcare"
+
+#: includes/Admin/AdminDashboard.php:322
+msgid "An"
+msgstr "Pornit"
+
+#: includes/Admin/AdminDashboard.php:322
+msgid "Aus"
+msgstr "Oprit"
+
+#. translators: %d: number of fonts listed for preloading
+#: includes/Admin/AdminDashboard.php:323
+#, php-format
+msgid "%d Dateien eingetragen (max. 3 werden ausgegeben)"
+msgstr "%d fișiere înregistrate (se afișează max. 3)"
+
+#: includes/Admin/AdminDashboard.php:326
+msgid "CDN-Stylesheets in dieser Admin-Anfrage"
+msgstr "Foi de stil CDN în această cerere de administrare"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Theme-Styles des Frontends sind hier nicht registriert"
+msgstr "Stilurile publice ale temei nu sunt înregistrate aici"
+
+#: includes/Admin/AdminDashboard.php:333
+msgid "So wird eine Schrift lokal"
+msgstr "Cum devine local un font"
+
+#: includes/Admin/AdminDashboard.php:335
+msgid "Unter „Startseite prüfen“ die Google-Fonts-URL des Themes ablesen."
+msgstr ""
+"În fila „Verifică prima pagină”, citiți adresa URL Google Fonts folosită de "
+"temă."
+
+#: includes/Admin/AdminDashboard.php:336
+msgid ""
+"Unter „Schrift herunterladen“ diese URL eintragen: Stylesheet und WOFF2-"
+"Dateien landen in uploads/wm-zero-cdn/, die Schrift-URLs im Stylesheet "
+"zeigen auf die lokalen Dateien."
+msgstr ""
+"În fila „Descarcă font”, introduceți acel URL: foaia de stil și fișierele "
+"WOFF2 ajung în uploads/wm-zero-cdn/, cu adrese către copiile locale."
+
+#: includes/Admin/AdminDashboard.php:337
+msgid ""
+"Im Theme oder per Snippet den externen Link entfernen und die angezeigte "
+"lokale CSS-URL einbinden. Das Plugin macht diesen Schritt nicht."
+msgstr ""
+"În temă sau printr-un fragment de cod, eliminați legătura externă și "
+"încărcați adresa CSS locală afișată. Modulul nu efectuează acest pas."
+
+#: includes/Admin/AdminDashboard.php:338
+msgid "Startseite erneut prüfen."
+msgstr "Verificați din nou prima pagină."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid "Inter"
+msgstr "Inter"
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Roboto"
+msgstr "Roboto"
+
+#: includes/Admin/AdminDashboard.php:356
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Poppins"
+msgstr "Poppins"
+
+#: includes/Admin/AdminDashboard.php:368
+msgid "Google-Fonts-Stylesheet herunterladen"
+msgstr "Descarcă foaia de stil Google Fonts"
+
+#: includes/Admin/AdminDashboard.php:370
+msgid ""
+"Stylesheet-URL eintragen. Das Plugin lädt das CSS und jede darin genannte "
+"WOFF2-Datei, prüft, dass es wirklich WOFF2 ist, und schreibt die Schrift-"
+"URLs auf die lokalen Kopien um. Die lokale Datei wird nicht automatisch "
+"eingebunden."
+msgstr ""
+"Introduceți adresa URL a foii de stil. Modulul descarcă CSS-ul și fiecare "
+"fișier WOFF2 menționat, verifică semnătura WOFF2 și rescrie adresele "
+"fonturilor către copiile locale. Fișierul local nu este încărcat automat."
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "Beispiele:"
+msgstr "Exemple:"
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "Stylesheet-URL:"
+msgstr "URL foaie de stil:"
+
+#: includes/Admin/AdminDashboard.php:387
+msgid "Herunterladen und lokal speichern"
+msgstr "Descarcă și salvează local"
+
+#: includes/Admin/AdminDashboard.php:409
+msgid "Lade Stylesheet und Schriftdateien …"
+msgstr "Se descarcă foaia de stil și fișierele de font …"
+
+#: includes/Admin/AdminDashboard.php:420
+msgid "Gespeichert. Lokale CSS-Datei (im Theme einbinden):"
+msgstr "Salvat. Fișier CSS local (de inclus în temă):"
+
+#: includes/Admin/AdminDashboard.php:422
+msgid "WOFF2-Dateien lokal:"
+msgstr "Fișiere WOFF2 locale:"
+
+#: includes/Admin/AdminDashboard.php:422
+msgid "nicht ladbar (bleiben extern):"
+msgstr "imposibil de încărcat (rămân externe):"
+
+#: includes/Admin/AdminDashboard.php:425 includes/Admin/AdminDashboard.php:432
+msgid "Fehler:"
+msgstr "Eroare:"
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "CDN-Verweise im HTML der Startseite"
+msgstr "Referințe CDN în HTML-ul primei pagini"
+
+#. translators: %s: front page URL
+#: includes/Admin/AdminDashboard.php:444
+#, php-format
+msgid ""
+"Gerade abgerufen: %s. Geprüft werden Links und Skripte zu Google Fonts, Font "
+"Awesome, cdnjs, jsDelivr und unpkg; andere externe Hosts und Unterseiten "
+"nicht."
+msgstr ""
+"Preluat acum: %s. Sunt verificate legăturile și scripturile către Google "
+"Fonts, Font Awesome, cdnjs, jsDelivr și unpkg; alte gazde externe și "
+"subpaginile nu sunt verificate."
+
+#. translators: %s: error
+#: includes/Admin/AdminDashboard.php:448
+#, php-format
+msgid ""
+"Die Startseite konnte nicht abgerufen werden (%s). Ohne diese Messung sagt "
+"das Plugin nichts über externe Verweise."
+msgstr ""
+"Prima pagină nu a putut fi preluată (%s). Fără această măsurătoare, modulul "
+"nu face afirmații despre referințele externe."
+
+#: includes/Admin/AdminDashboard.php:450
+msgid "Keine Verweise auf die fünf geprüften CDN-Hosts im HTML der Startseite."
+msgstr ""
+"Nicio referință către cele cinci gazde CDN verificate în HTML-ul primei "
+"pagini."
+
+#: includes/Admin/AdminDashboard.php:455 includes/Admin/AdminDashboard.php:480
+msgid "Anbieter"
+msgstr "Furnizor"
+
+#: includes/Admin/AdminDashboard.php:456
+msgid "URL"
+msgstr "Adresă URL"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid "CDN-Stylesheets, die in dieser Admin-Anfrage registriert sind"
+msgstr "Foi de stil CDN înregistrate în această cerere de administrare"
+
+#: includes/Admin/AdminDashboard.php:474
+msgid ""
+"Keine. Die Styles des Frontends werden im Admin nicht registriert; "
+"maßgeblich ist die Prüfung der Startseite oben."
+msgstr ""
+"Niciuna. Stilurile interfeței publice nu sunt înregistrate în administrare; "
+"relevantă este verificarea primei pagini de mai sus."
+
+#: includes/Admin/AdminDashboard.php:479
+msgid "Handle"
+msgstr "Identificator"
+
+#: includes/Admin/AdminDashboard.php:481
+msgid "Quelle"
+msgstr "Sursă"
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Preload-Links im Kopfbereich aktivieren"
+msgstr "Activează legăturile preload în antet"
+
+#: includes/Admin/AdminDashboard.php:516
+msgid ""
+"Gibt für bis zu drei vorhandene WOFF2-Dateien in wp-content/uploads/wm-zero-"
+"cdn/ ein rel=\"preload\"-Element im Kopfbereich aus."
+msgstr ""
+"Afișează un element rel=\"preload\" în antet pentru cel mult trei fișiere "
+"WOFF2 existente în wp-content/uploads/wm-zero-cdn/."
+
+#: includes/Admin/AdminDashboard.php:522
+msgid "Lokale WOFF2-Dateinamen für Preload (eine Datei pro Zeile):"
+msgstr ""
+"Nume de fișiere WOFF2 locale pentru preîncărcare (câte un fișier pe rând):"
+
+#: includes/Admin/AdminDashboard.php:526
+msgid ""
+"Nur Dateinamen auf .woff2, die tatsächlich im Ordner uploads/wm-zero-cdn/ "
+"liegen, werden berücksichtigt (höchstens drei)."
+msgstr ""
+"Sunt luate în considerare numai numele terminate în .woff2 aflate efectiv în "
+"dosarul uploads/wm-zero-cdn/ (cel mult trei)."
+
+#: includes/Admin/AdminDashboard.php:533
+msgid "Daten beim Deinstallieren löschen"
+msgstr "Șterge datele la dezinstalare"
+
+#: includes/Admin/AdminDashboard.php:536
+msgid ""
+"Standardmäßig bleiben Optionen und lokal gespeicherte Schriftdateien "
+"erhalten, wenn das Plugin gelöscht wird. Nur wenn diese Option aktiviert "
+"ist, entfernt die Deinstallation alle Plugin-Optionen, den Prüf-"
+"Zwischenspeicher und den Ordner wp-content/uploads/wm-zero-cdn/ dieser "
+"Website."
+msgstr ""
+"Implicit, opțiunile și fișierele de font salvate local sunt păstrate la "
+"ștergerea modulului. Numai dacă această opțiune este activată, dezinstalarea "
+"elimină toate opțiunile modulului, memoria cache de verificare și dosarul wp-"
+"content/uploads/wm-zero-cdn/ al acestui site."
+
+#: includes/Admin/AdminDashboard.php:541
+msgid "Einstellungen speichern"
+msgstr "Salvează setările"
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "CDN (Content Delivery Network)"
+msgstr "CDN (rețea de livrare a conținutului)"
+
+#: includes/Admin/AdminDashboard.php:554
+msgid ""
+"Fremde Server, die Dateien ausliefern. Lädt der Browser eine Datei von dort, "
+"erhält der Server die IP-Adresse des Besuchers."
+msgstr ""
+"Servere terțe care livrează fișiere. Când navigatorul încarcă un fișier de "
+"acolo, serverul primește adresa IP a vizitatorului."
+
+#: includes/Admin/AdminDashboard.php:557
+msgid "WOFF2"
+msgstr "WOFF2"
+
+#: includes/Admin/AdminDashboard.php:558
+msgid ""
+"Komprimiertes Schriftformat für das Web. Das Plugin speichert nur Dateien, "
+"die mit der WOFF2-Signatur beginnen; es konvertiert keine anderen Formate."
+msgstr ""
+"Format comprimat de fonturi pentru web. Modulul salvează doar fișierele care "
+"încep cu semnătura WOFF2 și nu convertește alte formate."
+
+#: includes/Admin/AdminDashboard.php:562
+msgid ""
+"Ein <link rel=\"preload\">-Hinweis, der den Browser eine Schrift früher "
+"laden lässt. Das Plugin gibt bis zu drei solcher Links für vorhandene "
+"Dateien in uploads/wm-zero-cdn/ aus, wenn Preload unter „Einstellungen“ oder "
+"per Filter aktiviert ist."
+msgstr ""
+"O indicație <link rel=\"preload\"> care determină navigatorul să încarce un "
+"font mai devreme. Modulul afișează până la trei astfel de legături pentru "
+"fișierele existente în uploads/wm-zero-cdn/ când preîncărcarea este activată "
+"în „Setări” sau prin filtru."
+
+#: includes/Integrations/BlockIntegrations.php:43
+#: includes/Integrations/BlockIntegrations.php:62
+msgid "WM Zero-CDN Status"
+msgstr "Stare WM Zero-CDN"
+
+#: includes/Integrations/BlockIntegrations.php:66
+msgid ""
+"Gibt den gemessenen CDN-Prüfstatus oder die Anzahl lokaler WOFF2-Dateien aus."
+msgstr ""
+"Afișează starea măsurată a verificării CDN sau numărul de fișiere WOFF2 "
+"locale."
+
+#: includes/Integrations/BlockIntegrations.php:70
+msgid "Feld"
+msgstr "Câmp"
+
+#: includes/Integrations/BlockIntegrations.php:75
+msgid "Zusammenfassung"
+msgstr "Rezumat"
+
+#: includes/Integrations/BlockIntegrations.php:87
+msgid "Prüfstatus-Kennung"
+msgstr "Cheie stare"
+
+#: includes/Integrations/BlockIntegrations.php:156
+msgid "Startseite noch nicht geprüft"
+msgstr "Prima pagină nu a fost încă verificată"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

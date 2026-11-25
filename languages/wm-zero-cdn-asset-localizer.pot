@@ -1,0 +1,409 @@
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WM Zero-CDN Asset Localizer & Font Sovereignty Engine 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-zero-cdn-asset-localizer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-21T15:00:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wm-zero-cdn-asset-localizer\n"
+
+#. Plugin Name of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "WM Zero-CDN Asset Localizer & Font Sovereignty Engine"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-zero-cdn-asset-localizer/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "Checks the front page for Google Fonts, Font Awesome, cdnjs, jsDelivr and unpkg references and downloads a Google Fonts stylesheet with its WOFF2 files to the site's own uploads folder. Replacing the remote link in the theme stays a manual step."
+msgstr ""
+
+#. Author of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "Arnold Wender"
+msgstr ""
+
+#. Author URI of the plugin
+#: wm-zero-cdn-asset-localizer.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "WM Zero-CDN — externe Schriften und Bibliotheken"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:142
+msgid "Startseite konnte nicht geprüft werden"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:144
+#: includes/Integrations/BlockIntegrations.php:167
+msgid "Keine CDN-Verweise auf der Startseite gefunden"
+msgstr ""
+
+#. translators: %d: number of CDN references found on the front page
+#: includes/Admin/AdminDashboard.php:147
+#: includes/Integrations/BlockIntegrations.php:177
+#, php-format
+msgid "%d CDN-Verweis auf der Startseite"
+msgid_plural "%d CDN-Verweise auf der Startseite"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/AdminDashboard.php:151
+msgid "Geprüft: Google Fonts, Font Awesome, cdnjs, jsDelivr, unpkg im HTML der Startseite"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:158
+#: includes/Integrations/BlockIntegrations.php:79
+msgid "CDN-Verweise"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:162
+#: includes/Admin/AdminDashboard.php:316
+#: includes/Integrations/BlockIntegrations.php:83
+msgid "Lokale WOFF2-Dateien"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:168
+msgid "Startseite jetzt prüfen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:187
+msgid "WM Zero-CDN Localizer"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:188
+msgid "Zero-CDN"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:226
+msgid "Übersicht"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:227
+#: includes/Admin/AdminDashboard.php:293
+msgid "Schrift herunterladen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:228
+#: includes/Admin/AdminDashboard.php:290
+msgid "Startseite prüfen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:229
+#: includes/Admin/AdminDashboard.php:506
+msgid "Einstellungen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:230
+#: includes/Admin/AdminDashboard.php:550
+msgid "Begriffe"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:259
+msgid "WM Zero-CDN — Schriften lokal bereitstellen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:260
+msgid "Startseite auf CDN-Verweise prüfen &bull; Google-Fonts-CSS und WOFF2-Dateien auf den eigenen Server laden"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Part of the WM Suite plugin family"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "WM Suite"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:267
+msgid "Hub"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:267
+msgid "Standalone"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:270
+msgid "STARTSEITE NICHT GEPRÜFT"
+msgstr ""
+
+#. translators: %d: CDN references
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d CDN-VERWEISE"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "KEINE CDN-VERWEISE GEFUNDEN"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:282
+msgid "Was dieses Plugin tut – und was nicht"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:285
+msgid "Wenn eine Seite Schriften oder Bibliotheken von einem fremden Server lädt, schickt der Browser jedes Besuchers seine IP-Adresse an diesen Server. Das Plugin prüft das HTML der Startseite auf Google Fonts, Font Awesome, cdnjs, jsDelivr und unpkg und lädt auf Wunsch ein Google-Fonts-Stylesheet samt WOFF2-Dateien nach wp-content/uploads/wm-zero-cdn/. Es tauscht nichts automatisch aus: die lokale CSS-Datei muss im Theme statt des externen Links eingebunden werden."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:288
+msgid "Schnellzugriff:"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:299
+msgid "Module Tabs"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "CDN-Verweise auf der Startseite"
+msgstr ""
+
+#. translators: %s: time of the scan
+#: includes/Admin/AdminDashboard.php:313
+#, php-format
+msgid "geprüft %s"
+msgstr ""
+
+#. translators: %s: error
+#: includes/Admin/AdminDashboard.php:313
+#, php-format
+msgid "nicht lesbar: %s"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:318
+msgid "in uploads/wm-zero-cdn/"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:321
+#: includes/Admin/AdminDashboard.php:561
+msgid "Preload"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:322
+msgid "An"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:322
+msgid "Aus"
+msgstr ""
+
+#. translators: %d: number of fonts listed for preloading
+#: includes/Admin/AdminDashboard.php:323
+#, php-format
+msgid "%d Dateien eingetragen (max. 3 werden ausgegeben)"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:326
+msgid "CDN-Stylesheets in dieser Admin-Anfrage"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:328
+msgid "Theme-Styles des Frontends sind hier nicht registriert"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:333
+msgid "So wird eine Schrift lokal"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:335
+msgid "Unter „Startseite prüfen“ die Google-Fonts-URL des Themes ablesen."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Unter „Schrift herunterladen“ diese URL eintragen: Stylesheet und WOFF2-Dateien landen in uploads/wm-zero-cdn/, die Schrift-URLs im Stylesheet zeigen auf die lokalen Dateien."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "Im Theme oder per Snippet den externen Link entfernen und die angezeigte lokale CSS-URL einbinden. Das Plugin macht diesen Schritt nicht."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:338
+msgid "Startseite erneut prüfen."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:348
+msgid "Inter"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:352
+msgid "Roboto"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:356
+msgid "Montserrat"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Poppins"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:368
+msgid "Google-Fonts-Stylesheet herunterladen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:370
+msgid "Stylesheet-URL eintragen. Das Plugin lädt das CSS und jede darin genannte WOFF2-Datei, prüft, dass es wirklich WOFF2 ist, und schreibt die Schrift-URLs auf die lokalen Kopien um. Die lokale Datei wird nicht automatisch eingebunden."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:374
+msgid "Beispiele:"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "Stylesheet-URL:"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:387
+msgid "Herunterladen und lokal speichern"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:409
+msgid "Lade Stylesheet und Schriftdateien …"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:420
+msgid "Gespeichert. Lokale CSS-Datei (im Theme einbinden):"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:422
+msgid "WOFF2-Dateien lokal:"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:422
+msgid "nicht ladbar (bleiben extern):"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:425
+#: includes/Admin/AdminDashboard.php:432
+msgid "Fehler:"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:442
+msgid "CDN-Verweise im HTML der Startseite"
+msgstr ""
+
+#. translators: %s: front page URL
+#: includes/Admin/AdminDashboard.php:444
+#, php-format
+msgid "Gerade abgerufen: %s. Geprüft werden Links und Skripte zu Google Fonts, Font Awesome, cdnjs, jsDelivr und unpkg; andere externe Hosts und Unterseiten nicht."
+msgstr ""
+
+#. translators: %s: error
+#: includes/Admin/AdminDashboard.php:448
+#, php-format
+msgid "Die Startseite konnte nicht abgerufen werden (%s). Ohne diese Messung sagt das Plugin nichts über externe Verweise."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:450
+msgid "Keine Verweise auf die fünf geprüften CDN-Hosts im HTML der Startseite."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:455
+#: includes/Admin/AdminDashboard.php:480
+msgid "Anbieter"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:456
+msgid "URL"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:472
+msgid "CDN-Stylesheets, die in dieser Admin-Anfrage registriert sind"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:474
+msgid "Keine. Die Styles des Frontends werden im Admin nicht registriert; maßgeblich ist die Prüfung der Startseite oben."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:479
+msgid "Handle"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:481
+msgid "Quelle"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:513
+msgid "Preload-Links im Kopfbereich aktivieren"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:516
+msgid "Gibt für bis zu drei vorhandene WOFF2-Dateien in wp-content/uploads/wm-zero-cdn/ ein rel=\"preload\"-Element im Kopfbereich aus."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:522
+msgid "Lokale WOFF2-Dateinamen für Preload (eine Datei pro Zeile):"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:526
+msgid "Nur Dateinamen auf .woff2, die tatsächlich im Ordner uploads/wm-zero-cdn/ liegen, werden berücksichtigt (höchstens drei)."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:533
+msgid "Daten beim Deinstallieren löschen"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:536
+msgid "Standardmäßig bleiben Optionen und lokal gespeicherte Schriftdateien erhalten, wenn das Plugin gelöscht wird. Nur wenn diese Option aktiviert ist, entfernt die Deinstallation alle Plugin-Optionen, den Prüf-Zwischenspeicher und den Ordner wp-content/uploads/wm-zero-cdn/ dieser Website."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:541
+msgid "Einstellungen speichern"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:553
+msgid "CDN (Content Delivery Network)"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:554
+msgid "Fremde Server, die Dateien ausliefern. Lädt der Browser eine Datei von dort, erhält der Server die IP-Adresse des Besuchers."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:557
+msgid "WOFF2"
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:558
+msgid "Komprimiertes Schriftformat für das Web. Das Plugin speichert nur Dateien, die mit der WOFF2-Signatur beginnen; es konvertiert keine anderen Formate."
+msgstr ""
+
+#: includes/Admin/AdminDashboard.php:562
+msgid "Ein <link rel=\"preload\">-Hinweis, der den Browser eine Schrift früher laden lässt. Das Plugin gibt bis zu drei solcher Links für vorhandene Dateien in uploads/wm-zero-cdn/ aus, wenn Preload unter „Einstellungen“ oder per Filter aktiviert ist."
+msgstr ""
+
+#: includes/Integrations/BlockIntegrations.php:43
+#: includes/Integrations/BlockIntegrations.php:62
+msgid "WM Zero-CDN Status"
+msgstr ""
+
+#: includes/Integrations/BlockIntegrations.php:66
+msgid "Gibt den gemessenen CDN-Prüfstatus oder die Anzahl lokaler WOFF2-Dateien aus."
+msgstr ""
+
+#: includes/Integrations/BlockIntegrations.php:70
+msgid "Feld"
+msgstr ""
+
+#: includes/Integrations/BlockIntegrations.php:75
+msgid "Zusammenfassung"
+msgstr ""
+
+#: includes/Integrations/BlockIntegrations.php:87
+msgid "Prüfstatus-Kennung"
+msgstr ""
+
+#: includes/Integrations/BlockIntegrations.php:156
+msgid "Startseite noch nicht geprüft"
+msgstr ""
